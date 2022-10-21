@@ -1,0 +1,130 @@
+{
+  "title": "iOS安全与防护",
+  "description": "介绍iOS安全与防护。包括iOS安全在安全领域所属的范畴，iOS系统本身的安全设计，以及iOS的安全的具体防护手段。包括但不限于代码角度的代码混淆、防止逆行导出头文件、代码动态执行、以及抓包相关的SSL证书绑定等手段。",
+  "pluginsConfig": {
+    "autocover": {
+      "title": "iOS安全与防护"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_security_protect",
+          "user": "crifan",
+          "type": "star",
+          "count": true,
+          "size": "small"
+        },
+        {
+          "user": "crifan",
+          "type": "follow",
+          "width": "120",
+          "count": false,
+          "size": "small"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_security_protect/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_security_protect/pdf/ios_security_protect.pdf",
+      "icon": "fa-file-pdf-o",
+      "label": "下载PDF"
+    },
+    "callouts": {
+      "showTypeInHeader": false
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "disqus": {
+      "shortName": "crifan"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": true,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": true,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "line",
+        "linkedin",
+        "messenger",
+        "pocket",
+        "qq",
+        "qzone",
+        "stumbleupon",
+        "twitter",
+        "viber",
+        "vk",
+        "weibo",
+        "whatsapp"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "crifan.org，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
+      "modify_label": "最后更新：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "donate": {
+      "wechat": "https://www.crifan.org/files/res/crifan_com/crifan_wechat_pay.jpg",
+      "alipay": "https://www.crifan.org/files/res/crifan_com/crifan_alipay_pay.jpg",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏给Crifan",
+      "wechatText": "微信打赏给Crifan"
+    }
+  },
+  "author": "Crifan Li <admin@crifan.com>",
+  "language": "zh-hans",
+  "root": "./src",
+  "links": {
+    "sidebar": {
+      "主页": "http://www.crifan.org"
+    }
+  },
+  "plugins": [
+    "theme-comscore",
+    "anchors",
+    "expandable-menu",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "disqus",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "github-buttons",
+    "-splitter",
+    "splitter-nosessionbutcookie",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "donate",
+    "sitemap-general",
+    "copy-code-button",
+    "callouts",
+    "toolbar-button"
+  ]
+}
