@@ -3,12 +3,37 @@
 iOS的逆向和破解，与之相对的正向的防护，叫：`iOS安全和防护`
 
 * iOS安全防护的`手段`=防护的角度=具体涉及内容
-  * 代码角度：`代码混淆`
+  * iOS系统：本身已有的不少安全方面的设计和防护
+  * 防止逆向后轻易看懂代码逻辑 = 代码角度：`代码混淆`
     * 被反编译后，也只能看到 乱码的函数
       * 部分防止被破解，被猜测到核心逻辑
-  * 被逆向导出头文件
+  * 防止被导出头文件
     * 把`ObjC`换`Swift`，以增加被破解难度？
-  * 把核心逻辑和代码，变成动态下载再运行
-  * 其他相关
-    * 抓包角度：做SSL证书的`ssl pinning`
-      * 甚至额外做本地证书校验
+  * 隐藏核心代码逻辑
+    * 把核心逻辑和代码，变成动态下载再运行
+  * 反调试：用技术手段实现不让app倍调试
+    * 增加了逆向后调试的可能性或难度
+      * [反调试和反反调试 · iOS逆向开发：动态调试 (crifan.org)](https://book.crifan.org/books/ios_re_dynamic_debug/website/anti_debug_related.html)
+  * 越狱检测：检测设备是否已越狱
+    * 如果已越狱，则不让运行或功能受限
+      * [iOS逆向开发：越狱检测和反越狱检测 (crifan.org)](https://book.crifan.org/books/ios_re_jb_detection/website/)
+  * 网络传输的数据的防护
+    * 防抓包：从抓包角度，用技术手段，防止被抓包
+      * SSL证书的`ssl pinning`=`证书绑定`
+        * 甚至额外做本地证书校验
+  * iOS端的数据存储的安全方面
+    * iOS端本地的数据库
+      * SQLite
+        * SQLite加密：增加破解难度
+          * SQLCipher
+            * https://github.com/sqlcipher/sqlcipher
+  * 其他
+    * 异常检测
+      * 重签名检测
+      * 动态库注入检测
+      * 钩子检测
+    * 扫描工具
+      * `fortify`
+        * 侧重于代码的安全漏洞
+      * `coverity`
+        * 侧重于代码质量
