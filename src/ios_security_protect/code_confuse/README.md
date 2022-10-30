@@ -25,7 +25,7 @@ iOS安全从代码角度，可以去做：`代码混淆`
   * 插入垃圾指令
 * iOS代码混淆工具
   * `Obfuscator-LLVM` = `ollvm`
-  * `iOS Class Guard`
+  * `ios-class-guard`=`iOS Class Guard`
   * `Hikari`
     * 基于ollvm
     * 主页
@@ -37,5 +37,15 @@ iOS安全从代码角度，可以去做：`代码混淆`
       * `money`变成`xadsf32`
       * `showMoney`变成`AFAdsaf123`
   * iOS逆向后看到的代码中的函数，都是无名的函数
-    * 比如：Hopper逆向app后，有很多函数名都是：sub_xxx，就表示，该函数被混淆了
-      * ![ios_hopper_func_sub](../../assets/img/ios_hopper_func_sub.jpg)
+    * 比如：
+      * Hopper逆向app后，有很多函数名都是：sub_xxx，就表示，该函数被混淆了
+        * ![ios_hopper_func_sub](../../assets/img/ios_hopper_func_sub.jpg)
+    * 对比
+      * `YouTube`：没有代码混淆 -> IDA伪代码中能看到明文的`objc_msgSend`的函数调用
+        * ![ida_code_many_explict_call](../../assets/img/ida_code_many_explict_call.jpg)
+          * 都可以看到类似于：
+            * `objc_msgSend(&OBJC_CLASS___NSNumber, "numberWithLong:", 1)`
+          * 这种近乎原始代码的效果
+      * `抖音`：有代码混淆 -> IDA伪代码中，完全看不到明文的`objc_msgSend`的函数调用
+        * ![ida_code_no_explict_call](../../assets/img/ida_code_no_explict_call.jpg)
+          * 注：其中的`jmp_objc_msgSend_xxxx(xxx, (char *)qword_xxx, xxx)`这类的调用中的`jmp_objc_msgSend_xxxx`是在逆向后，搞懂函数调用后，改名优化后的伪代码
