@@ -7,6 +7,7 @@
   * [代码混淆](ios_security_protect/code_confuse/README.md)
     * [Obfuscator-LLVM](ios_security_protect/code_confuse/obfuscator_llvm.md)
     * [ios-class-guard](ios_security_protect/code_confuse/ios_class_guard.md)
+  * [反调试](ios_security_protect/anti_debug.md)
   * [防止导出头文件](ios_security_protect/prevent_export_header.md)
   * [代码动态运行](ios_security_protect/code_dynamic_exec.md)
   * [设备指纹](ios_security_protect/device_fingerprint.md)

@@ -1,7 +1,7 @@
 {
   "latestVersion": "v0.9",
-  "lastUpdate": "20221027",
+  "lastUpdate": "20221030",
   "gitRepoName": "ios_security_protect",
   "bookName": "iOS安全与防护",
-  "bookDescription": "介绍iOS安全与防护。包括iOS安全在安全领域所属的范畴，iOS系统本身的安全设计，以及iOS的安全的具体防护手段。包括但不限于代码角度的代码混淆、防止逆行导出头文件、代码动态执行、以及抓包相关的SSL证书绑定等手段。"
+  "bookDescription": "介绍iOS安全与防护。包括iOS安全在安全领域所属的范畴，iOS系统本身的安全设计，以及iOS的安全的具体防护手段。包括但不限于代码角度的代码混淆、反调试、防止逆行导出头文件、代码动态执行、以及抓包相关的SSL证书绑定等手段。"
 }
