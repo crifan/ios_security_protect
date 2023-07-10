@@ -1,5 +1,7 @@
 # 参考资料
 
+* 【已解决】恢复iPhone7中抖音的https包的Charles抓包环境
+* 
 * [Class-dump导出头文件没有属性和方法名怎么处理 - 技能讨论 - 睿论坛](https://iosre.com/t/class-dump/19355/7)
 * [iOS逆向攻防实战 - 掘金 (juejin.cn)](https://juejin.cn/post/7073109091320610829)
 * [[原创]某App去混淆-iOS安全-看雪论坛-安全社区|安全招聘|bbs.pediy.com](https://bbs.pediy.com/thread-272839.htm)
@@ -17,3 +19,4 @@
 * [Apple隐私政策趋严，设备指纹路在何方？_网易易盾 (163.com)](https://dun.163.com/news/p/fcb1feeac70f488ab41dfa2d713d05c8)
 * [iOS设备指纹的前世今生 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/316034012)
 * [29 | 设备指纹：面对各种虚拟设备，如何进行对抗？_wx60cc441e1698a的技术博客_51CTO博客](https://blog.51cto.com/u_15275035/2922750)
+*  
