@@ -31,6 +31,8 @@ iOS安全防护技术之一是
       * task_get_exception_ports
       * isatty
       * ioctl
+  * 详见子教程
+    * [反调试和反反调试 · iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/anti_debug_related.html)
 
 ## ptrace的PT_DENY_ATTACH
 

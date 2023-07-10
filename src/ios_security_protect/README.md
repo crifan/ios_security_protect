@@ -10,12 +10,12 @@ iOS的逆向和破解，与之相对的正向的防护，叫：`iOS安全和防�
       * 部分防止被破解，被猜测到核心逻辑
   * 反调试：用技术手段实现不让app被调试
     * 增加了逆向后调试的可能性或难度
-      * [反调试和反反调试 · iOS逆向开发：动态调试 (crifan.org)](https://book.crifan.org/books/ios_re_dynamic_debug/website/anti_debug_related.html)
+      * [反调试和反反调试 · iOS逆向开发：动态调试](https://book.crifan.org/books/ios_re_dynamic_debug/website/anti_debug_related.html)
   * 防止被导出头文件
     * 把`ObjC`换`Swift`，以增加被破解难度？
   * 越狱检测：检测设备是否已越狱
     * 如果已越狱，则不让运行或功能受限
-      * [iOS逆向开发：越狱检测和反越狱检测 (crifan.org)](https://book.crifan.org/books/ios_re_jb_detection/website/)
+      * [iOS逆向开发：越狱检测和反越狱检测](https://book.crifan.org/books/ios_re_jb_detection/website/)
   * 网络传输的数据的防护
     * 防抓包：从抓包角度，用技术手段，防止被抓包
       * SSL证书的`ssl pinning`=`证书绑定`
