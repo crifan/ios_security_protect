@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v1.0",
-  "lastUpdate": "20230710",
+  "latestVersion": "v1.1.0",
+  "lastUpdate": "20250530",
   "gitRepoName": "ios_security_protect",
   "bookName": "iOS安全与防护",
   "bookDescription": "介绍iOS安全与防护。包括iOS安全的概览，在安全领域所属的范畴；以及iOS的安全的具体防护手段，包括但不限于iOS系统本身的安全设计、代码混淆、反调试、防止逆向导出头文件、越狱检测、反爬、数据存储加密、代码动态执行、设备指纹等，反爬中涉及到SSL证书绑定。"
